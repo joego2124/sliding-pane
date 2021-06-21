@@ -48,7 +48,7 @@
   left: 0px;
   right: 0px;
   bottom: 0px;
-  background-color: rgba(0,0,0,0);
+  background-color: rgba(0,0,0,1);
 }
 .slide-pane__overlay.overlay-after-open {
   background-color: rgba(0,0,0,0.3);
