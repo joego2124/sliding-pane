@@ -44,14 +44,14 @@
 }
 .slide-pane__overlay {
   position: fixed;
-  top: 0px;
-  left: 60x;
-  right: 0px;
-  bottom: 0px;
-  background-color: rgba(0,0,0,1);
+  top: 60px;
+  left: 60px;
+	width: 225px;
+  background-color: rgba(0,0,0,0);
 }
+
 .slide-pane__overlay.overlay-after-open {
-  background-color: rgba(0,0,0,0.3);
+  background-color: rgba(0,0,0,0);
   transition: background-color 0.5s;
 }
 .slide-pane__overlay.overlay-before-close {
