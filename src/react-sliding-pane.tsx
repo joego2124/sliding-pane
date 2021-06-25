@@ -101,7 +101,7 @@ export function ReactSlidingPane({
 
 function IconClose() {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 22">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 22" style={{transform: [{rotate: "90deb"}]}}>
       <path
         fill="currentColor"
         fillRule="evenodd"

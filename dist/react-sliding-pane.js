@@ -106,7 +106,12 @@ ReactSlidingPane.propTypes = {
 function IconClose() {
   return /*#__PURE__*/React__default['default'].createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
-    viewBox: "0 0 13 22"
+    viewBox: "0 0 13 22",
+    style: {
+      transform: [{
+        rotate: "90deb"
+      }]
+    }
   }, /*#__PURE__*/React__default['default'].createElement("path", {
     fill: "currentColor",
     fillRule: "evenodd",
